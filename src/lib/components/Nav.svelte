@@ -20,7 +20,7 @@
             <div class="my-4">
                 <Separator/>
             </div>
-            <LinkItem icon="favorite" name="Premium" href={PREMIUM_URL}/>
+            <LinkItem icon="favorite" name="Premium" href={PREMIUM_URL} color="text-red-500"/>
             <div class="my-4">
                 <Separator/>
             </div>

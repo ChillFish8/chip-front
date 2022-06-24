@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Home | Chip</title>
+</svelte:head>
+
 <script lang="ts">
     import Card, {
         Content,
@@ -7,11 +11,12 @@
     } from '@smui/card';
     import Button, {Label} from '@smui/button';
     import IconButton, {Icon} from '@smui/icon-button';
+    import {fly} from "svelte/transition";
 
     let clicked = 0;
 </script>
 
-<div class="card-container">
+<div in:fly={{ x: 200, duration: 200}}  class="card-container">
     <Card>
         <Content>A card with Both.</Content>
         <Actions>
