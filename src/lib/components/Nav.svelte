@@ -7,7 +7,7 @@
 </script>
 
 <div class="bg-brand-darker shadow-hard-left w-full lg:w-1/4 h-24 lg:h-full lg:min-h-screen px-4 py-8"
-     style="max-width: 350px">
+     style="max-width: 300px">
     <div class="flex items-center justify-center space-x-4 w-full border-b border-brand-orange pb-4">
         <img class="w-10 h-10 rounded-full" src="/icons/logo.webp" alt=""/>
         <h1 class="text-2xl font-semibold mb-1">Chip Bot</h1>
@@ -24,6 +24,7 @@
             <div class="my-4">
                 <Separator/>
             </div>
+            <LinkItem icon="house" name="Home" href="/"/>
             <LinkItem icon="list" name="Commands" href="/commands"/>
             <LinkItem icon="group_add" name="Join Our Discord" href="/discord"/>
             <div class="my-4">
