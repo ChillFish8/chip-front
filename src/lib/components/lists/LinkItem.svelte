@@ -8,7 +8,7 @@
     export let href;
 </script>
 
-<Item on:SMUI:action={() => goto(href, { replaceState: false })} class={color}>
+<Item on:SMUI:action={() => goto(href, { replaceState: false })} class="transition {color}">
     <Graphic class="material-icons {color}">{icon}</Graphic>
     <Text>{name}</Text>
 </Item>
