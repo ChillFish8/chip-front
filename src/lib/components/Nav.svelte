@@ -1,6 +1,9 @@
 <script lang="ts">
-    import List, {Item, Graphic, Separator, Text} from '@smui/list';
+    import List, {Item, Separator, Text} from '@smui/list';
     import SignIn from "./buttons/SignIn.svelte";
+    import {PREMIUM_URL} from "$lib/api/config";
+    import LinkItem from "./lists/LinkItem.svelte";
+
 </script>
 
 <div class="bg-brand-darker shadow-hard-left w-full lg:w-1/4 h-24 lg:h-full lg:min-h-screen px-4 py-8"
@@ -13,25 +16,16 @@
         <SignIn/>
     </div>
     <div class="w-full mt-2">
-        <List class="">
+        <List>
             <div class="my-4">
                 <Separator/>
             </div>
-            <Item>
-                <Graphic class="material-icons">favorite</Graphic>
-                <Text>Premium</Text>
-            </Item>
+            <LinkItem icon="favorite" name="Premium" href={PREMIUM_URL}/>
             <div class="my-4">
                 <Separator/>
             </div>
-            <Item>
-                <Graphic class="material-icons">list</Graphic>
-                <Text>Commands</Text>
-            </Item>
-            <Item>
-                <Graphic class="material-icons">group_add</Graphic>
-                <Text>Join Our Discord</Text>
-            </Item>
+            <LinkItem icon="list" name="Commands" href="/commands"/>
+            <LinkItem icon="group_add" name="Join Our Discord" href="/discord"/>
             <div class="my-4">
                 <Separator/>
             </div>
