@@ -9,7 +9,7 @@
     let menuOpen = false;
 </script>
 
-<div class="absolute top-0 left-0 bg-brand-darker shadow-hard-left w-full lg:w-1/4 max-w-none lg:max-w-300 {menuOpen && 'min-h-screen'} lg:h-full lg:min-h-screen px-0 lg:px-4 pb-2 pt-4 lg:py-8">
+<div class="absolute lg:relative top-0 left-0 bg-brand-darker shadow-hard-left w-full lg:w-1/4 max-w-none lg:max-w-300 {menuOpen && 'min-h-screen'} lg:h-full lg:min-h-screen px-0 lg:px-4 pb-2 pt-4 lg:py-8 z-50">
     <div class="flex items-center justify-between lg:justify-center w-full border-b border-brand-orange pb-4 px-4 lg:px-0">
         <div class="flex items-center space-x-4">
             <img class="w-10 h-10 rounded-full" src="/icons/logo.webp" alt=""/>
