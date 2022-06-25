@@ -10,6 +10,9 @@ module.exports = {
       },
       boxShadow: {
         'hard-left': '5px 0 11px -4px rgba(0, 0, 0, 0.75)'
+      },
+      maxWidth: {
+        '300': '300px'
       }
     },
   },

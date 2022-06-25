@@ -31,6 +31,8 @@
 		"smui-theme": "^6.0.0-beta.16",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
+		"svelte-hamburgers": "^4.0.1",
+		"svelte-loading-spinners": "^0.1.7",
 		"svelte-preprocess": "^4.10.6",
 		"tailwindcss": "^3.1.4",
 		"tslib": "^2.3.1",
